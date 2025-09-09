@@ -125,7 +125,7 @@ Challenges & Solutions
 - Predictive maintenance with Machine Learning
 - Mobile application for user access
 
-
+📷 Sample Results
 ![Bus-Connect in Action](Screenshot_2.jpg)
 ![Bus-Connect in Action](Screenshot_3.jpg)
 
