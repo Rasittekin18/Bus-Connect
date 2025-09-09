@@ -129,7 +129,15 @@ Challenges & Solutions
 ![Bus-Connect in Action](Screenshot_2.jpg)
 ![Bus-Connect in Action](Screenshot_3.jpg)
 
+💻 Codebase Overview
+- The source codes of this project are included in the codes.rar archive.
+  - STM32 (C) → Handles data collection from the bus CAN bus.
+  - ESP32 / ESP8266 (C / C++) → Transfers collected data to the AWS Cloud.
+  - AWS Server (Python) → Processes, transforms, and decodes incoming data using Lambda functions and other AWS services.
 
+- This structure ensures that:
+  - Low-level communication with the vehicle is handled efficiently using embedded C/C++.
+  - Cloud-side data processing, conversion, and visualization pipelines are implemented in Python.
 
 
 
